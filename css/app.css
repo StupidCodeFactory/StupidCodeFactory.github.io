@@ -1,0 +1,26 @@
+body {
+    background: #0D0300;
+    color: #6C712E;
+}
+
+a {
+    color: #400705;
+}
+
+a:hover {
+    color: #6C712E;
+}
+
+#logo h1 {
+    color: #6C712E;
+}
+
+#logo h6, #logo hr {
+    border-color: #242305;
+    color: #6C712E;
+}
+.wrap {
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+}

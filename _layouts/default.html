@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="wrap">
+      {% include header.html %}
+      <div class="units-row">
+        <div class="unit-70">Hello world</div>
+        <div class="unit-30">
+          <nav class="nav">
+            <ul>
+              {% for post in site.posts %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+            <nav>
+        </div>
+      </div>
+      {{ content }}
+    </div>
+  </body>
+
+</html>
