@@ -3,12 +3,18 @@ body {
     color: #6C712E;
 }
 
-a {
-    color: #400705;
+a, a:link, a:hover, a:visited, a:active {
+    color: #6C712E;
+    text-decoration: none;
 }
 
-a:hover {
+.nav ul li a:hover, .nav ul li a:visited, .nav ul li a:active {
     color: #6C712E;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background: #242305;
 }
 
 #logo h1 {
