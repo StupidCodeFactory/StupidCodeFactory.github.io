@@ -10,7 +10,6 @@ a, a:link, a:hover, a:visited, a:active {
 
 .nav ul li a:hover, .nav ul li a:visited, .nav ul li a:active {
     color: #6C712E;
-    text-decoration: none;
 }
 
 .nav ul li a:hover {
@@ -21,7 +20,7 @@ a, a:link, a:hover, a:visited, a:active {
     color: #6C712E;
 }
 
-#logo h6, #logo hr {
+#logo h3, #logo hr {
     border-color: #242305;
     color: #6C712E;
 }
