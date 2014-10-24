@@ -1,5 +1,6 @@
 body {
-    background: #0D0300;
+    /* background: #0D0300 */
+    background-image: url("/images/background_image.jpeg");
     color: #6C712E;
 }
 
@@ -28,4 +29,8 @@ a, a:link, a:hover, a:visited, a:active {
     margin: auto;
     width: 80%;
     max-width: 1200px;
+}
+
+.photo-wrapper {
+    margin-left: 50px ;
 }
